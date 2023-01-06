@@ -1,0 +1,7 @@
+/*** COMMON ***/
+.blind {
+  display: block;
+  position: absolute;
+  top: -99999px;
+  left: 0;
+}
