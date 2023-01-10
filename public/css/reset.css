@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 html,
 body,
 div,
@@ -132,7 +135,6 @@ a {
   text-decoration: none;
 }
 
-/* ------ ADD ------ */
 body,
 h1,
 h2,
@@ -172,11 +174,11 @@ select {
   -moz-appearance: none;
   appearance: none;
 }
-
 button {
   background-color: none;
 }
-
-* {
-  box-sizing: border-box;
+address,
+em,
+i {
+  font-style: normal;
 }

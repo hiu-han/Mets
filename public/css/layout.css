@@ -1,0 +1,82 @@
+/*** HEADER ***/
+#header {
+  width: 100%;
+  background-color: #fff;
+}
+.intro-page #header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 100;
+}
+header {
+  width: 100%;
+  height: 84px;
+}
+.header__inner {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  padding: 0 14px;
+  margin: 0 auto;
+}
+
+/** HEADER -> logo **/
+.logo {
+  margin-top: -4px;
+  margin-right: 60px;
+}
+.logo a {
+  display: inline-block;
+  width: 74px;
+  height: inherit;
+}
+.logo a img {
+  display: none;
+}
+.logo a .logo__img--black {
+  display: inline-block;
+}
+.intro-page .logo a .logo__img--black {
+  display: none;
+}
+.intro-page .logo a .logo__img--white {
+  display: inline-block;
+}
+
+/** HEADER -> nav **/
+nav {
+  height: 100%;
+}
+#primary-menu {
+  height: 100%;
+}
+#primary-menu > .menu__item {
+  position: relative;
+  display: inline-block;
+  height: inherit;
+  padding: 0 24px;
+}
+#primary-menu > .menu__item a {
+  display: inline-block;
+  width: 100%;
+  line-height: 84px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: #666;
+}
+#primary-menu > .menu__item:hover a {
+  color: #212121;
+}
+.intro-page #primary-menu > .menu__item a {
+  font-weight: 400;
+  color: #fff;
+}
+.intro-page #primary-menu > .menu__item:hover a {
+  color: #efefef;
+}
