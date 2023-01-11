@@ -45,11 +45,20 @@ main: Pretendard 14px
 /*** HEADER ***/
 /** HEADER -> logo **/
 /** HEADER -> nav **/
+/*** FOOTER ***/
 /***------------------ layout.css  END ------------------***/
 
 /***------------------ main.css  START ------------------***/
 /*** COMMON ***/
 /*** MAIN ***/
+/** MAIN -> main banner **/
+/* MAIN -> main banner -> banner img wrap */
+/* MAIN -> main banner -> banner text wrap */
+/* MAIN -> main banner -> banner tab wrap */
+/*** SUB ***/
+/*** SUB ABOUT PAGE ***/
+/** SUB ABOUT PAGE -> content--about **/
+/** SUB ABOUT PAGE -> content--management **/
 /***------------------ main.css  END ------------------***/
 
 /***------------------ modal.css  START ------------------***/

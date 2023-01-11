@@ -7,18 +7,19 @@ body {
 #wrap {
   width: 100%;
   height: auto;
+  background-color: #fff;
   /* background-color: #f7f8f8; */
-  background-color: lightgray;
+  /* background-color: lightgray; */
 }
 #main {
   max-width: 1200px;
-  min-height: 988px;
+  /* min-height: 988px; */
   padding: 0 14px;
   margin: 0 auto;
 }
 .intro-page #main {
   max-width: unset;
-  min-height: 100vh;
+  min-height: unset;
   padding-top: 84px;
 }
 
@@ -63,7 +64,6 @@ body {
 .banner-bg__list .banner-bg__item .banner-bg__img {
   width: 100%;
   height: 100%;
-  /* background-color: lightgray; */
   background-image: url('../img/main/bg-sample-01.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -190,4 +190,100 @@ body {
 }
 .banner-tab__list > .banner-tab__item.now-on > a > em {
   display: inline-block;
+}
+
+/*** SUB ***/
+section.page--head {
+  padding: 70px 0 65px;
+}
+section.page--head .page-title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+section.content-section:last-child {
+  margin-bottom: 160px;
+}
+
+.section__title {
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: 700;
+}
+/*** SUB ABOUT PAGE ***/
+/** SUB ABOUT PAGE -> content--about **/
+section.content--about {
+  font-size: 0;
+  margin-bottom: 160px;
+}
+.about-mets__img {
+  width: 100%;
+  height: 36vw;
+  max-height: 460px;
+  margin-bottom: 44px;
+  background-image: url('../img/main/img-sample-01.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: 0 -30px; */
+  background-position: center;
+}
+.about-mets__title {
+  position: relative;
+  display: inline-block;
+  width: 230px;
+  margin-right: 60px;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 1;
+  vertical-align: top;
+}
+.about-mets__title > .title__txt--bg {
+  color: #e5e6e8;
+}
+.about-mets__title > .title__txt {
+  position: absolute;
+  top: 25px;
+  right: 0;
+}
+.about-mets__subs {
+  display: inline-block;
+  width: calc(100% - 290px);
+  padding-top: 40px;
+  font-size: 14px;
+  vertical-align: top;
+}
+.about-mets__subs > .subs__head {
+  margin-bottom: 14px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.about-mets__subs > .subs__body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/** SUB ABOUT PAGE -> content--management **/
+.content--management .build__list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 4vw;
+}
+.content--management .build__item {
+  width: 25%;
+}
+.content--management .build__item .item__img {
+  height: 28vw;
+  max-height: 364px;
+  margin-bottom: 14px;
+  background-color: lightblue;
+}
+.content--management .build__item .item__subs {
+  font-size: 20px;
+}
+.content--management .build__item .item__subs > .subs__head {
+  font-weight: 900;
+}
+.content--management .build__item .item__subs > .subs__body {
+  font-weight: 300;
 }
