@@ -2,6 +2,7 @@
 #header {
   width: 100%;
   background-color: #fff;
+  box-shadow: 0px 1px 8px rgba(88, 88, 88, 0.2);
 }
 .intro-page #header {
   position: absolute;
@@ -37,6 +38,7 @@ header {
 }
 .logo a img {
   display: none;
+  width: 100%;
 }
 .logo a .logo__img--black {
   display: inline-block;
@@ -187,6 +189,8 @@ footer .build__list > .build__item > span:last-of-type {
 }
 .family-site .site__list .site__item > a {
   display: block;
+  color: #666;
+  font-weight: 400;
 }
 
 /** FOOTER -> foot bottom **/

@@ -5,3 +5,23 @@
   top: -99999px;
   left: 0;
 }
+
+/*** BTN ***/
+.btn__wrap {
+  text-align: center;
+}
+.btn__wrap > .btn {
+  display: inline-block;
+  transition: 0.2s ease-in;
+}
+.btn__wrap > .btn.btn--secondary {
+  line-height: 2.6;
+  padding: 0 20px;
+  border: 1px solid #e6e6e6;
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+.btn__wrap > .btn.btn--secondary:hover {
+  border: 1px solid #ddd;
+  background-color: #ddd;
+}
