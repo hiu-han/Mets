@@ -201,18 +201,18 @@ section.page__head .page-title {
   font-weight: 700;
   text-align: center;
 }
-section.content-section:last-child {
+article.content-article:last-child {
   margin-bottom: 160px;
 }
 
-.section__title {
+.article__title {
   margin-bottom: 40px;
   font-size: 30px;
   font-weight: 700;
 }
 /*** SUB ABOUT PAGE ***/
 /** SUB ABOUT PAGE -> content--about **/
-section.content--about {
+article.content--about {
   font-size: 0;
   margin-bottom: 160px;
 }
@@ -224,7 +224,6 @@ section.content--about {
   background-image: url('../img/main/img-sample-01.png');
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: 0 -30px; */
   background-position: center;
 }
 .about-mets__title {

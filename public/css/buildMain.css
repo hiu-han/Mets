@@ -1,0 +1,48 @@
+/*** BUILDMAIN -> ABOUT ***/
+.about-build__img {
+  width: 100%;
+  height: 38vw;
+  max-height: 450px;
+  margin-bottom: 34px;
+  background-image: url('../img/main/img-sample-02.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about-build__txt {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 60px;
+}
+.about-build__txt .about-build--tag {
+  width: 200px;
+  text-align: right;
+}
+.about-build--tag .tag__item {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.about-build__txt .about-build--comment {
+}
+.about-build--comment .about-build__title {
+  margin-bottom: 14px;
+}
+.about-build--comment .about-build__title > p {
+  font-size: 36px;
+  line-height: 1;
+}
+.about-build--comment .about-build__title > .title__main {
+  margin-bottom: 4px;
+  font-weight: 700;
+}
+.about-build--comment .about-build__title > .title__sub {
+  font-weight: 300;
+}
+.about-build--comment .about-build__subs {
+  font-size: 16px;
+  line-height: 1.4;
+}
