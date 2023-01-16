@@ -1,4 +1,8 @@
 /*** BUILDMAIN -> ABOUT ***/
+article.content--build-about {
+  margin-bottom: 130px;
+}
+
 .about-build__img {
   width: 100%;
   height: 38vw;
@@ -9,7 +13,6 @@
   background-position: center;
   background-size: cover;
 }
-
 .about-build__txt {
   display: flex;
   flex-wrap: nowrap;
@@ -44,5 +47,179 @@
 }
 .about-build--comment .about-build__subs {
   font-size: 16px;
-  line-height: 1.4;
+  line-height: 1.5;
+}
+
+article.content--build-info {
+  position: relative;
+}
+article.content--build-info section.build-info {
+  position: relative;
+  width: 100%;
+  margin-bottom: 170px;
+}
+article.content--build-info section.build-info:last-child {
+  margin-bottom: 0;
+}
+.content--build-info .section__title {
+  position: relative;
+  margin-bottom: 24px;
+}
+.content--build-info .section__title > span {
+  display: inline-block;
+}
+.content--build-info .section__title > .title__num {
+  position: absolute;
+  bottom: 0;
+  left: -50px;
+  font-size: 54px;
+  font-weight: 900;
+  color: #e5e6e8;
+  line-height: 1;
+  z-index: 10;
+}
+.content--build-info .section__title > .title__txt {
+  position: relative;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1;
+  z-index: 20;
+}
+.content--build-info .section__body {
+  /* position: relative; */
+  width: 100%;
+}
+.section__body .section__txt__wrap {
+  display: inline-block;
+  width: 50%;
+}
+.section__body .detail__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+.section__body .detail__item {
+  width: calc(50% - 7px);
+  font-size: 16px;
+}
+.section__body .detail__item:nth-child(odd) {
+  width: calc(55% - 7px);
+}
+.section__body .detail__item:nth-child(even) {
+  width: calc(45% - 7px);
+}
+.section__body .detail__item > span {
+  display: inline-block;
+}
+.section__body .detail__item .item--name {
+  margin-right: 20px;
+  font-weight: 600;
+}
+.section__body .section__txt {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.section__body .section__img__wrap {
+  position: absolute;
+  top: 0;
+  left: 60%;
+  width: 50vw;
+}
+.section__img__wrap > .section__img {
+  position: relative;
+  width: 586px;
+  height: 340px;
+  /* background-image: url('../img/main/bg-sample-02.jpg'); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.build-info--detail .section__body .section__img__wrap,
+.build-info--fac .section__body .section__img__wrap {
+  height: 390px;
+  margin-top: -14px;
+  background-color: #e5e6e8;
+}
+.build-info--detail .section__body .section__img__wrap > .section__img,
+.build-info--fac .section__body .section__img__wrap > .section__img {
+  position: absolute;
+  top: 50%;
+  left: -50px;
+  transform: translateY(-50%);
+}
+.build-info--detail .section__img__wrap > .section__img {
+  background-image: url('../img/main/bg-sample-02.jpg');
+}
+article.content--build-info section.build-info.build-info--fac {
+  margin-left: 50%;
+  margin-bottom: 330px;
+}
+.build-info--fac .section__body .section__img__wrap {
+  left: unset;
+  right: 120%;
+}
+.build-info--fac .section__body .section__img__wrap > .section__img {
+  left: unset;
+  right: -50px;
+  background-image: url('../img/main/img-sample-03.jpg');
+}
+.build-info--fac-a .section__img__wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: right;
+  gap: 14px;
+  position: relative;
+  top: unset;
+  left: unset;
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+}
+.build-info--fac-a .section__img__wrap > .section__img {
+  display: block;
+  position: relative;
+  top: unset;
+  left: unset;
+  transform: unset;
+  width: 24%;
+  height: 16vw;
+  max-height: 180px;
+  background-color: lightcoral;
+}
+.build-info--fac-a .section__img__wrap > .section__img:first-child {
+  background-image: url('../img/main/img-sample-04.jpg');
+}
+.build-info--fac-a .section__img__wrap > .section__img:nth-child(2) {
+  background-image: url('../img/main/img-sample-05.jpg');
+}
+.build-info--fac-a .section__img__wrap > .section__img:last-child {
+  background-image: url('../img/main/img-sample-06.jpg');
+}
+.build-info--fac-a .section__img__wrap > .section__img > em {
+  display: block;
+  position: absolute;
+  bottom: -24px;
+  right: 0;
+}
+
+article.content--build-info section.build-info.build-info--fac-b {
+  margin-bottom: 330px;
+}
+.build-info--fac-b .section__img__wrap {
+  left: 55%;
+  width: 50%;
+}
+.build-info--fac-b .section__img__wrap > .section__img {
+  width: 100%;
+  height: 26vw;
+  max-height: 320px;
+  background-image: url('../img/main/img-sample-07.jpg');
+}
+
+.build-info--contact .section__map {
+  width: 100%;
+  height: 38vw;
+  max-height: 463px;
 }

@@ -1,0 +1,24 @@
+.foot-logo .logo {
+  color: #808080;
+  line-height: 1;
+  vertical-align: bottom;
+  letter-spacing: -0.04rem;
+}
+.foot-logo .logo > span {
+  display: inline-block;
+  margin-right: 6px;
+  font-size: 26px;
+  font-weight: 900;
+}
+.foot-logo .logo > em {
+  font-size: 18px;
+}
+
+.foot--bottom {
+  margin-top: 4px;
+}
+address .co-info {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
