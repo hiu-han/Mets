@@ -1,4 +1,4 @@
-/*** BUILDMAIN -> ABOUT ***/
+/*** build MAIN -> ABOUT ***/
 article.content--build-about {
   margin-bottom: 130px;
 }
@@ -28,8 +28,6 @@ article.content--build-about {
   margin-bottom: 8px;
   font-size: 18px;
   font-weight: 700;
-}
-.about-build__txt .about-build--comment {
 }
 .about-build--comment .about-build__title {
   margin-bottom: 14px;
@@ -86,7 +84,6 @@ article.content--build-info section.build-info:last-child {
   z-index: 20;
 }
 .content--build-info .section__body {
-  /* position: relative; */
   width: 100%;
 }
 .section__body .section__txt__wrap {

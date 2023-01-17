@@ -1,3 +1,30 @@
+/*** build HEADER ***/
+.header__inner {
+  justify-content: space-between;
+}
+.header__inner .logo {
+  line-height: 1;
+  letter-spacing: -0.04rem;
+}
+.header__inner .logo a {
+  width: auto;
+}
+.header__inner .logo > a > .logo--mets-name {
+  display: inline-block;
+  margin-right: 8px;
+  font-size: 28px;
+  font-weight: 900;
+  vertical-align: bottom;
+}
+.header__inner .logo > a > .logo--build-name {
+  display: inline-block;
+  margin-bottom: 2px;
+  font-size: 18px;
+  /* font-weight: 500; */
+  vertical-align: bottom;
+}
+
+/*** build FOOTER ***/
 .foot-logo .logo {
   color: #808080;
   line-height: 1;

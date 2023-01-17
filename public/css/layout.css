@@ -1,8 +1,13 @@
 /*** HEADER ***/
-#header {
+#header,
+#buildHeader {
   width: 100%;
   background-color: #fff;
   box-shadow: 0px 1px 8px rgba(88, 88, 88, 0.2);
+}
+.intro-page #header,
+.intro-page #buildHeader {
+  box-shadow: none;
 }
 .intro-page #header {
   position: absolute;
@@ -109,19 +114,18 @@ footer {
 footer .build__list {
   display: flex;
   justify-content: space-between;
-  gap: 54px;
-  /* gap: 6vw; */
+  gap: 64px;
   flex-wrap: nowrap;
 }
 footer .build__list > .build__item > .build__title {
   margin-bottom: 8px;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
   color: #5e5e5e;
 }
 footer .build__list > .build__item > span {
   display: block;
-  font-size: 12px;
+  font-size: 13px;
   color: #808080;
 }
 footer .build__list > .build__item > span:last-of-type {
@@ -165,9 +169,8 @@ footer .build__list > .build__item > span:last-of-type {
   bottom: 100%;
   width: 100%;
   height: 0;
-  background-color: #c7c7c7;
+  background-color: #d1d1d1;
   padding: 0;
-  /* color: #5e5e5e; */
   transition: 0.4s;
   overflow: hidden;
   opacity: 0;
@@ -185,7 +188,7 @@ footer .build__list > .build__item > span:last-of-type {
   display: block;
 }
 .family-site .site__list .site__item:hover {
-  background-color: #d1d1d1;
+  background-color: #c7c7c7;
 }
 .family-site .site__list .site__item > a {
   display: block;
@@ -200,7 +203,7 @@ footer .build__list > .build__item > span:last-of-type {
 address .co-info {
   display: inline-block;
   margin-right: 44px;
-  font-size: 12px;
+  font-size: 13px;
   color: #5e5e5e;
 }
 address .co-info.copyright {
