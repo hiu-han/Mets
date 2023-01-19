@@ -35,5 +35,5 @@ $(document).ready(function () {
     );
   }
 
-  const setSlide = setInterval(slideBanner, 4000);
+  // const setSlide = setInterval(slideBanner, 4000);
 });
