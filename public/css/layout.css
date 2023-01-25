@@ -80,6 +80,7 @@ nav {
 }
 #primary-menu > .menu__item:hover a {
   color: #212121;
+  font-weight: 600;
 }
 .intro-page #primary-menu > .menu__item a {
   font-weight: 400;
@@ -138,6 +139,7 @@ footer .build__list > .build__item > span:last-of-type {
   position: relative;
   min-width: 140px;
   height: inherit;
+  cursor: pointer;
 }
 .family-site .family-site__head {
   width: 100%;
