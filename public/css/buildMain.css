@@ -46,6 +46,7 @@ article.content--build-about {
 .about-build--comment .about-build__subs {
   font-size: 16px;
   line-height: 1.5;
+  word-break: keep-all;
 }
 
 article.content--build-info {

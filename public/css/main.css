@@ -567,3 +567,131 @@ article.content--about {
   font-weight: 500;
   font-size: 16px;
 }
+
+/** SUB -> build page **/
+#main.build .content--build-about {
+  margin-bottom: 180px;
+}
+#main.build.metrix .content--build-about {
+  margin-bottom: 200px;
+}
+#main.build .about-build__wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 44px;
+}
+#main.build.seonwoo .about-build__wrap {
+  flex-direction: row-reverse;
+}
+#main.build.geukdong .about-build__wrap {
+  justify-content: center;
+  padding-right: 10%;
+  gap: 64px;
+}
+#main.build .about-build__img {
+  width: 60%;
+  margin-bottom: 0;
+  box-shadow: 1px 3px 8px rgba(88, 88, 88, 0.2);
+}
+#main.build.metrix .about-build__img {
+  background-image: url('../img/main/build_metrix_main.jpg');
+}
+#main.build.seonwoo .about-build__img {
+  background-image: url('../img/main/build_seonwoo_main.jpg');
+  background-size: cover;
+}
+#main.build.geukdong .about-build__img {
+  width: 36%;
+  height: 50vw;
+  max-height: 580px;
+  background-image: url('../img/main/build_geukdong_main.jpg');
+}
+#main.build.seryeon .about-build__img {
+  background-image: url('../img/main/build_seryeon_main01.jpg');
+}
+#main.build .about-build__txt {
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 14px;
+  width: 40%;
+  padding-bottom: 24px;
+}
+#main.build.seonwoo .about-build__txt {
+  text-align: right;
+}
+#main.build .about-build--tag {
+  width: 100%;
+  text-align: left;
+}
+#main.build.seonwoo .about-build--tag {
+  text-align: right;
+}
+#main.build .about-build--tag .tag__item {
+  width: auto;
+  margin-right: 14px;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+#main.build .about-build--tag .tag__item:last-child {
+  margin-right: 0;
+}
+
+#main.build .section__body {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 34px;
+}
+#main.build.seonwoo .build-info--detail .section__title {
+  margin-left: calc(50% + 64px);
+}
+#main.build.seonwoo .build-info--detail .section__body {
+  flex-direction: row-reverse;
+}
+#main.build .section__body .section__txt__wrap {
+  width: 50%;
+}
+#main.build.seonwoo .build-info--detail .section__body .section__txt__wrap {
+  padding-left: 42px;
+}
+#main.build .section__body .section__img__wrap {
+  position: relative;
+  top: unset;
+  left: unset;
+  width: 50%;
+  margin-top: -80px;
+  background-color: #e5e6e8;
+}
+#main.build .build-info--detail .section__body .section__img__wrap {
+  height: 30vw;
+  max-height: 390px;
+}
+#main.build
+  .build-info--detail
+  .section__body
+  .section__img__wrap
+  .section__img {
+  box-shadow: 1px 3px 8px rgba(88, 88, 88, 0.2);
+}
+#main.build.metrix
+  .build-info--detail
+  .section__body
+  .section__img__wrap
+  .section__img {
+  width: 34vw;
+  max-width: 410px;
+  height: 36vw;
+  max-height: 432px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url('../img/main/build_metrix_parking.jpg');
+  background-size: 90%;
+  background-position: center -80p;
+}
+#main.build.seonwoo
+  .build-info--detail
+  .section__body
+  .section__img__wrap
+  .section__img {
+  background-image: url('../img/main/build_seonwoo_enter.jpg');
+}
