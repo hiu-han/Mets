@@ -203,7 +203,7 @@ article.content--build-info section.build-info.build-info--fac {
 }
 
 article.content--build-info section.build-info.build-info--fac-b {
-  margin-bottom: 330px;
+  /* margin-bottom: 330px; */
 }
 .build-info--fac-b .section__img__wrap {
   left: 55%;

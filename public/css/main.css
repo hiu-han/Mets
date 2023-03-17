@@ -575,41 +575,22 @@ article.content--about {
 #main.build.metrix .content--build-about {
   margin-bottom: 200px;
 }
+#main.build.geukdong .content--build-about {
+  margin-bottom: 0;
+}
 #main.build .about-build__wrap {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   gap: 44px;
 }
-#main.build.seonwoo .about-build__wrap {
-  flex-direction: row-reverse;
-}
-#main.build.geukdong .about-build__wrap {
-  justify-content: center;
-  padding-right: 10%;
-  gap: 64px;
-}
+
 #main.build .about-build__img {
   width: 60%;
   margin-bottom: 0;
   box-shadow: 1px 3px 8px rgba(88, 88, 88, 0.2);
 }
-#main.build.metrix .about-build__img {
-  background-image: url('../img/main/build_metrix_main.jpg');
-}
-#main.build.seonwoo .about-build__img {
-  background-image: url('../img/main/build_seonwoo_main.jpg');
-  background-size: cover;
-}
-#main.build.geukdong .about-build__img {
-  width: 36%;
-  height: 50vw;
-  max-height: 580px;
-  background-image: url('../img/main/build_geukdong_main.jpg');
-}
-#main.build.seryeon .about-build__img {
-  background-image: url('../img/main/build_seryeon_main01.jpg');
-}
+
 #main.build .about-build__txt {
   flex-direction: column;
   justify-content: flex-end;
@@ -617,15 +598,9 @@ article.content--about {
   width: 40%;
   padding-bottom: 24px;
 }
-#main.build.seonwoo .about-build__txt {
-  text-align: right;
-}
 #main.build .about-build--tag {
   width: 100%;
   text-align: left;
-}
-#main.build.seonwoo .about-build--tag {
-  text-align: right;
 }
 #main.build .about-build--tag .tag__item {
   width: auto;
@@ -642,17 +617,8 @@ article.content--about {
   flex-wrap: nowrap;
   gap: 34px;
 }
-#main.build.seonwoo .build-info--detail .section__title {
-  margin-left: calc(50% + 64px);
-}
-#main.build.seonwoo .build-info--detail .section__body {
-  flex-direction: row-reverse;
-}
 #main.build .section__body .section__txt__wrap {
   width: 50%;
-}
-#main.build.seonwoo .build-info--detail .section__body .section__txt__wrap {
-  padding-left: 42px;
 }
 #main.build .section__body .section__img__wrap {
   position: relative;
@@ -666,12 +632,13 @@ article.content--about {
   height: 30vw;
   max-height: 390px;
 }
-#main.build
-  .build-info--detail
-  .section__body
-  .section__img__wrap
-  .section__img {
+#main.build .section__body .section__img__wrap .section__img {
   box-shadow: 1px 3px 8px rgba(88, 88, 88, 0.2);
+}
+
+/* SUB -> BUILD page -> metrix */
+#main.build.metrix .about-build__img {
+  background-image: url('../img/main/build_metrix_main.jpg');
 }
 #main.build.metrix
   .build-info--detail
@@ -688,10 +655,132 @@ article.content--about {
   background-size: 90%;
   background-position: center -80p;
 }
+
+/* SUB -> BUILD page -> seonwoo */
+#main.build.seonwoo .about-build__wrap {
+  flex-direction: row-reverse;
+}
+#main.build.seonwoo .about-build__img {
+  background-image: url('../img/main/build_seonwoo_main.jpg');
+  background-size: cover;
+}
+#main.build.seonwoo .about-build__txt {
+  text-align: right;
+}
+#main.build.seonwoo .about-build--tag {
+  text-align: right;
+}
+#main.build.seonwoo .build-info--detail .section__title {
+  margin-left: calc(50% + 64px);
+}
+#main.build.seonwoo .build-info--detail .section__body {
+  flex-direction: row-reverse;
+}
+#main.build.seonwoo .build-info--detail .section__body .section__txt__wrap {
+  padding-left: 42px;
+}
 #main.build.seonwoo
   .build-info--detail
   .section__body
   .section__img__wrap
   .section__img {
   background-image: url('../img/main/build_seonwoo_enter.jpg');
+}
+
+/* SUB -> BUILD page -> geukdong */
+#main.build.geukdong {
+  max-width: 1000px;
+}
+#main.build.geukdong .about-build__wrap {
+  justify-content: flex-start;
+  /* padding-right: 10%; */
+  gap: 90px;
+}
+#main.build.geukdong .about-build__img {
+  width: 40%;
+  height: 50vw;
+  max-height: 580px;
+  margin-bottom: -230px;
+  background-image: url('../img/main/build_geukdong_main.jpg');
+}
+#main.build.geukdong .about-build__txt {
+  justify-content: flex-start;
+  padding-top: 24px;
+}
+#main.build.geukdong .build-info--detail {
+  margin-left: calc(50%);
+}
+#main.build.geukdong .build-info--detail .section__body .section__txt__wrap {
+  width: 50%;
+}
+
+/* SUB -> BUILD page -> seryeon */
+#main.build.seryeon .about-build__wrap {
+  flex-direction: row-reverse;
+}
+#main.build.seryeon .about-build__txt {
+  text-align: right;
+}
+#main.build.seryeon .about-build--tag {
+  text-align: right;
+}
+#main.build.seryeon .about-build__img {
+  background-image: url('../img/main/build_seryeon_main01.jpg');
+}
+#main.build.seryeon
+  .build-info--detail
+  .section__body
+  .section__img__wrap
+  .section__img {
+  background-image: url('../img/main/build_seryeon_enter.jpg');
+}
+#main.build.seryeon .build-info--detail .section__title {
+  margin-left: calc(50% + 64px);
+}
+#main.build.seryeon .build-info--detail .section__body {
+  flex-direction: row-reverse;
+}
+#main.build.seryeon .build-info--detail .section__body .section__txt__wrap {
+  padding-left: 42px;
+}
+#main.build.seryeon .build-info--fac-a .section__txt__wrap {
+  width: 40%;
+}
+#main.build.seryeon .build-info--fac-a .section__img__wrap {
+  justify-content: space-between;
+  width: 60%;
+  margin-top: -0px;
+  background-color: rgba(255, 255, 255, 0);
+}
+#main.build.seryeon .build-info--fac-a .section__img__wrap > .section__img {
+  width: 33%;
+}
+#main.build.seryeon
+  .build-info--fac-a
+  .section__img__wrap
+  > .section__img:first-child {
+  background-image: url('../img/main/build_seryeon_room1.jpg');
+}
+#main.build.seryeon
+  .build-info--fac-a
+  .section__img__wrap
+  > .section__img:nth-child(2) {
+  background-image: url('../img/main/build_seryeon_room2.jpg');
+}
+#main.build.seryeon
+  .build-info--fac-a
+  .section__img__wrap
+  > .section__img:nth-child(3) {
+  background-image: url('../img/main/build_seryeon_room3.jpg');
+}
+#main.build.seryeon
+  .build-info--fac-a
+  .section__img__wrap
+  > .section__img
+  > em {
+  left: 0;
+  right: unset;
+}
+#main.build.seryeon .build-info--fac-b .section__img__wrap > .section__img {
+  background-image: url('../img/main/build_seryeon_rooftop1.jpg');
 }
