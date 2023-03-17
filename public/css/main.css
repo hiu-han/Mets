@@ -49,19 +49,32 @@ article.content--about {
   font-size: 0;
   margin-bottom: 160px;
 }
+.about-mets__wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 44px;
+}
 .about-mets__img {
-  width: 100%;
+  width: 60%;
   height: 36vw;
   max-height: 460px;
-  margin-bottom: 44px;
-  background-image: url('../img/main/img-sample-01.png');
+  background-image: url('../img/main/build_seonwoo_main.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  box-shadow: 1px 3px 8px rgba(88, 88, 88, 0.2);
+}
+.about-mets__txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 14px;
+  width: 40%;
+  padding-bottom: 24px;
 }
 .about-mets__title {
   position: relative;
-  display: inline-block;
   width: 230px;
   margin-right: 60px;
   font-size: 54px;
@@ -78,9 +91,9 @@ article.content--about {
   right: 0;
 }
 .about-mets__subs {
-  display: inline-block;
-  width: calc(100% - 290px);
-  padding-top: 40px;
+  /* display: inline-block; */
+  /* width: calc(100% - 290px); */
+  padding-top: 20px;
   font-size: 14px;
   vertical-align: top;
 }
@@ -115,6 +128,7 @@ article.content--about {
   position: relative;
   width: 100%;
   height: 100%;
+  box-shadow: 1px 3px 8px rgba(88, 88, 88, 0.2);
   overflow: hidden;
 }
 .content--management .build__item .item__img .link__btn {
