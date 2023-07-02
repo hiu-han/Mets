@@ -212,3 +212,19 @@ address .co-info {
 address .co-info.copyright {
   font-weight: 600;
 }
+
+@media all and (max-width: 480px) {
+  #header,
+  #buildHeader {
+    /* box-shadow: none; */
+  }
+  header {
+    height: 54px;
+  }
+  .logo {
+    margin-top: 2px;
+  }
+  .logo a {
+    width: 64px;
+  }
+}
